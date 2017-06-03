@@ -213,12 +213,15 @@ var mSiteMap = new SiteMap(app , __dirname , mDatabaseController , mConstantMode
 
 
 
-
+http.listen(process.env.PORT || 3000, function(){
+  console.log('listening on', http.address().port);
+});
+/*
 http.listen(80, function(){
     console.log('listening on *:80');
 });
 
-
+*/
 var message_check_license = schedule.scheduleJob({hour: 17, minute: 30}, function(){
   	console.log('Time for ask user active license!');
   	schedulingSendEmail();
