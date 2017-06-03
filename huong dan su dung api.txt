@@ -1,0 +1,6 @@
+vd:
+- Để sử dụng user api:
+	+ Bật file controller\api_constant.js
+	+ Sử dụng api get captcha: 'api_get_captcha' <---- ko có gì : '/api/post/get_captcha' <---- path api,
+	+ request tới: kyniema4.hopto.org/api/post/get_captcha
+	
