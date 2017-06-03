@@ -1,0 +1,8 @@
+{
+  "name": "EMH",
+  "description": "Marketplace",
+  "repository": "https://github.com/qaiserunicres/emhdesktop.git",
+  "logo": "#",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
